@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+}
+
+.navbar-full {
+  padding: 5px;
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-items > ul > li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
