@@ -1,0 +1,7 @@
+.projects-container {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 500;
+}

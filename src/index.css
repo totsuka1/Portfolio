@@ -1,0 +1,26 @@
+/* @media screen and (max-width: 400px) {
+  #projects {
+    width: 111%;
+  }
+} */
+
+* {
+  /* box-sizing: border-box; */
+  /* margin: 0; */
+  /* padding: 0; */
+  background: rgb(168, 168, 168);
+  background-size: cover;
+}
+
+body,
+html {
+  display: block;
+  font-family: sans-serif;
+  font-weight: 400;
+  /* width: 100% !important; */
+  /* height: 100% !important; */
+}
+
+.overlay {
+  padding: 0.5em;
+}

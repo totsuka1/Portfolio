@@ -6,7 +6,7 @@ import "./navbar.css";
 class Navbar extends React.Component {
   render() {
     return (
-      <nav id="menu" className="navbar-full">
+      <nav id="navbar" className="navbar-full">
         <div className="navbar-items">
           <ul>
             <li>

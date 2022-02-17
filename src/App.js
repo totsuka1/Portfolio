@@ -1,15 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import LandingPage from "./components/LandingPage/LandingPage";
+import LandingPage from "./components/1-LandingPage/LandingPage";
 import Navbar from "./components/Navbar/Navbar";
+import Main from "./components/2-Main/Main";
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-      </Routes>
+      <LandingPage />
+      <Navbar />
+      <Main />
     </div>
   );
 };
