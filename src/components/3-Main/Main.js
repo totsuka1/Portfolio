@@ -14,7 +14,6 @@ class Main extends React.Component {
       <div id="main">
         <div className="main-overlay overlay">
           <div className="main-container">
-            <h1>MAIN COMPONENT</h1>
             <Routes>
               <Route path="/Bio" element={<About />} />
               <Route path="/Skills" element={<Skills />} />

@@ -1,0 +1,18 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-headshot-container {
+  margin: 2%;
+}
+
+.about-headshot {
+  content: url("headshot.png");
+  width: 200px;
+}
+
+.about-text-container {
+  margin: 2%;
+}

@@ -5,10 +5,8 @@
 } */
 
 * {
-  /* box-sizing: border-box; */
-  /* margin: 0; */
-  /* padding: 0; */
-  background: rgb(168, 168, 168);
+  box-sizing: border-box;
+  background: rgb(102, 102, 102);
   background-size: cover;
 }
 
