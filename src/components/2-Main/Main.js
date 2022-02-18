@@ -1,6 +1,10 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import Navbar from "../Navbar/Navbar";
+import About from "./About/About";
+import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 import "./main.css";
 
@@ -11,7 +15,12 @@ class Main extends React.Component {
         <div className="main-overlay overlay">
           <div className="main-container">
             <h1>MAIN COMPONENT</h1>
-            {/* routing for components goes here */}
+            <Routes>
+              <Route path="/Bio" element={<About />} />
+              <Route path="/Skills" element={<Skills />} />
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/Contact" element={<Contact />} />
+            </Routes>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import "./projects.css";
 
 class Projects extends React.Component {
   render() {
-    return <div className="projects-container">Filler Text</div>;
+    return <div className="projects-container">Project Filler Text</div>;
   }
 }
 
