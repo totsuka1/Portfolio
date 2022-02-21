@@ -39,35 +39,38 @@ class Contact extends React.Component {
         </div>
         <div className="contact-container">
           <form name="message-form" onSubmit={this.handleSubmit}>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="form-contents"
-              value={this.state.name}
-              placeholder="Name"
-              required
-              onChange={this.handleChange}
-            />
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="form-contents"
-              value={this.state.email}
-              placeholder="Email"
-              required
-              onChange={this.handleChange}
-            />
-            <br />
-            <textarea
-              name="message"
-              className="form-contents"
-              value={this.state.message}
-              placeholder="Message"
-              required
-              onChange={this.handleChange}
-            />
+            <div className="contact-name-and-email">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="form-contents form-name"
+                value={this.state.name}
+                placeholder="Name"
+                required
+                onChange={this.handleChange}
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="form-contents form-email"
+                value={this.state.email}
+                placeholder="Email"
+                required
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="contact-message">
+              <textarea
+                name="message"
+                className="form-contents form-message"
+                value={this.state.message}
+                placeholder="Message"
+                required
+                onChange={this.handleChange}
+              />
+            </div>
             <button type="submit" className="contact-submit-button">
               Send Message
             </button>
