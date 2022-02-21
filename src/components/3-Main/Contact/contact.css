@@ -42,10 +42,18 @@
 .form-contents {
   color: white;
   display: block;
-  width: 100%;
+  /* width: 100%; */
   margin: 10px;
   border: 2px solid white;
   border-radius: 5px;
+}
+
+:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.507);
 }
 
 .contact-submit-button {
