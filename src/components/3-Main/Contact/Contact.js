@@ -26,7 +26,22 @@ class Contact extends React.Component {
   }
 
   handleSubmit(evt) {
-    // code for emailjs
+    evt.preventDefault();
+    emailjs
+      .sendForm(
+        "service_1zhevqb",
+        "template_wkt694r",
+        evt.target,
+        "user_Ko4TcRG0NsACgUN0KDG3O"
+      )
+      .then(
+        (result) => {
+          console.log(result.text), this.clearState();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   }
 
   render() {
