@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./navbar.css";
 
@@ -10,16 +10,16 @@ class Navbar extends React.Component {
         <div className="navbar-items">
           <ul>
             <li>
-              <Link to="/">Bio</Link>
+              <NavLink to="/">Bio</NavLink>
             </li>
             <li>
-              <Link to="/Skills">Skills</Link>
+              <NavLink to="/Skills">Skills</NavLink>
             </li>
             <li>
-              <Link to="/Projects">Projects</Link>
+              <NavLink to="/Projects">Projects</NavLink>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <NavLink to="/Contact">Contact</NavLink>
             </li>
           </ul>
         </div>
