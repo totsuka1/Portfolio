@@ -10,7 +10,7 @@ class Navbar extends React.Component {
         <div className="navbar-items">
           <ul>
             <li>
-              <Link to="/Bio">Bio</Link>
+              <Link to="/">Bio</Link>
             </li>
             <li>
               <Link to="/Skills">Skills</Link>

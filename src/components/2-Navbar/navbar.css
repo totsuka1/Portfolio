@@ -2,11 +2,8 @@
   transition: all 0.8s;
 }
 
-ul {
-  list-style: none;
-}
-
 .navbar-items > ul {
+  list-style: none;
   flex: 1;
   display: flex;
   justify-content: space-around;
@@ -18,4 +15,9 @@ ul {
   color: rgb(0, 0, 0);
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+.navbar-items > ul > li > a:hover {
+  color: rgba(255, 255, 255, 0.75);
+  transition: 0.75s;
 }

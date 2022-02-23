@@ -50,6 +50,11 @@
   font-size: medium;
 }
 
+.form-contents:hover {
+  background-color: rgb(126, 126, 126);
+  transition: 0.5s;
+}
+
 .form-message {
   min-height: 200px;
 }
