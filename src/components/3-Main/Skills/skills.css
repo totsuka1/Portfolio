@@ -1,0 +1,42 @@
+#skills h2 {
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+#skills h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 400px;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0),
+    #fff,
+    hsla(0, 0%, 100%, 0)
+  );
+  opacity: 0.5;
+}
+
+.text-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-container {
+  border: 2px solid white;
+  position: relative;
+  height: 50px;
+  margin: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

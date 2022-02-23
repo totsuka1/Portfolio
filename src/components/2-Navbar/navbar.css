@@ -18,10 +18,10 @@
 }
 
 .navbar-items > ul > li > a:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.3);
   transition: 0.75s;
 }
 
 .active {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
