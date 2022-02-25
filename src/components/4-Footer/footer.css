@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
 }
 
 .footer-items,
@@ -28,4 +29,15 @@
     hsla(0, 0%, 100%, 0)
   );
   opacity: 0.5;
+}
+
+.fa-footer {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.fa-footer:hover {
+  color: white;
+  transition: 0.5s;
 }
