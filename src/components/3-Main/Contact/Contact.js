@@ -51,6 +51,10 @@ class Contact extends React.Component {
           <div className="contact-intro">
             <h2>Get In Touch!</h2>
           </div>
+          <h4>
+            //Contact intro text placeholder. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit...
+          </h4>
         </div>
         <div className="contact-container">
           <form name="message-form" onSubmit={this.handleSubmit}>

@@ -17,12 +17,27 @@ class Skills extends React.Component {
           </h4>
         </div>
         <div className="skills-main-container">
-          <div className="frontend-container skills-container">Frontend</div>
-          <div className="backend-container skills-container">Backend</div>
-          <div className="blockchain-container skills-container">
-            Blockchain
+          <div className="frontend-container skills-container">
+            <div className="container-title">Frontend</div>
+            <div className="container-icons"></div>
           </div>
-          <div className="misc-container skills-container">Misc</div>
+          <div className="backend-container skills-container">
+            <div className="container-title">Backend</div>
+            <div className="container-icons"></div>
+          </div>
+          <div className="blockchain-container skills-container">
+            <div className="container-title">Blockchain</div>
+            <div className="container-icons"></div>
+          </div>
+          <div className="data-container skills-container">
+            <div className="container-title">Data/Stats</div>
+            <div className="container-icons"></div>
+          </div>
+          <div className="misc-container skills-container">
+            {" "}
+            <div className="container-title">Testing/Misc.</div>
+            <div className="container-icons"></div>
+          </div>
         </div>
       </div>
     );

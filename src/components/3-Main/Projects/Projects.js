@@ -10,6 +10,10 @@ class Projects extends React.Component {
           <div className="projects-intro">
             <h2>My Portfolio</h2>
           </div>
+          <h4>
+            //Project intro text placeholder. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit...
+          </h4>
         </div>
       </div>
     );
