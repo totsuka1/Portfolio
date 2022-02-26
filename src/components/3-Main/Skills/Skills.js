@@ -19,7 +19,9 @@ class Skills extends React.Component {
         <div className="skills-main-container">
           <div className="frontend-container skills-container">
             <div className="container-title">Frontend</div>
-            <div className="container-icons"></div>
+            <div className="container-icons">
+              <img className="skill-icons" src="./icons/javascript.svg" />
+            </div>
           </div>
           <div className="backend-container skills-container">
             <div className="container-title">Backend</div>
