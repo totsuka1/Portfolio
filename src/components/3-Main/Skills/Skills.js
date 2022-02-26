@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./skills.css";
 
@@ -20,9 +19,7 @@ class Skills extends React.Component {
         <div className="skills-main-container">
           <div className="frontend-container skills-container">
             <div className="container-title">Frontend</div>
-            <div className="container-icons">
-              <FontAwesomeIcon icon={["fab", "fa-js"]} />
-            </div>
+            <div className="container-icons"></div>
           </div>
           <div className="backend-container skills-container">
             <div className="container-title">Backend</div>

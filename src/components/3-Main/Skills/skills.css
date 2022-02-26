@@ -33,15 +33,20 @@
 }
 
 .container-icons {
+  display: flex;
   border: 2px solid white;
-  position: relative;
-  height: 50px;
+  height: 60px;
   margin-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  align-items: center;
 }
 
 .container-title {
   color: white;
   padding: 3px;
+}
+
+.skill-icons {
+  font-size: 40px;
+  padding-left: 10px;
 }
