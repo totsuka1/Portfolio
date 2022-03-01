@@ -46,16 +46,8 @@
   padding: 3px;
 }
 
-/* .skill-icons {
-  padding-left: 10px;
-  width: 60px;
-} */
-
-.container-icons > div {
+.container-icons > img {
   padding-left: 5px;
-  width: 50px;
-}
-
-.icon-javascript {
-  content: url("./icons/javascript.svg");
+  padding-right: 5px;
+  height: 45px;
 }
