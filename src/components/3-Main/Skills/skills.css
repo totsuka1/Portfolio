@@ -46,8 +46,16 @@
   padding: 3px;
 }
 
-.skill-icons {
-  /* font-size: 40px; */
+/* .skill-icons {
   padding-left: 10px;
   width: 60px;
+} */
+
+.container-icons > div {
+  padding-left: 5px;
+  width: 50px;
+}
+
+.icon-javascript {
+  content: url("./icons/javascript.svg");
 }

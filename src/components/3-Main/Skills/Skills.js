@@ -20,7 +20,7 @@ class Skills extends React.Component {
           <div className="frontend-container skills-container">
             <div className="container-title">Frontend</div>
             <div className="container-icons">
-              <img className="skill-icons" src="./icons/javascript.svg" />
+              <div className="icon-javascript" />
             </div>
           </div>
           <div className="backend-container skills-container">
