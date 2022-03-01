@@ -2,19 +2,25 @@ import React from "react";
 
 import javascriptLogo from "./icons/javascript.svg";
 import reactLogo from "./icons/react.svg";
+import reduxLogo from "./icons/redux.svg";
 import htmlLogo from "./icons/html5.svg";
 import cssLogo from "./icons/css3.svg";
 
 import nodejsLogo from "./icons/nodejs.svg";
+import expressjsLogo from "./icons/expressjs.svg";
 import postgresqlLogo from "./icons/postgresql.svg";
+import sequelizeLogo from "./icons/sequelize.svg";
 
 import solidityLogo from "./icons/solidity.svg";
+import web3jsLogo from "./icons/web3js.svg";
 import ganacheLogo from "./icons/ganache.svg";
 import truffleLogo from "./icons/truffle.svg";
 
+import matlabLogo from "./icons/matlab.svg";
 import rLogo from "./icons/r.svg";
 
 import gitLogo from "./icons/git.svg";
+import webpackLogo from "./icons/webpack.svg";
 import mochaLogo from "./icons/mocha.svg";
 
 import "./skills.css";
@@ -39,6 +45,7 @@ class Skills extends React.Component {
             <div className="container-icons">
               <img src={javascriptLogo} />
               <img src={reactLogo} />
+              <img src={reduxLogo} />
               <img src={htmlLogo} />
               <img src={cssLogo} />
             </div>
@@ -47,13 +54,16 @@ class Skills extends React.Component {
             <div className="container-title">Backend</div>
             <div className="container-icons">
               <img src={nodejsLogo} />
+              <img src={expressjsLogo} />
               <img src={postgresqlLogo} />
+              <img src={sequelizeLogo} />
             </div>
           </div>
           <div className="blockchain-container skills-container">
             <div className="container-title">Blockchain</div>
             <div className="container-icons">
               <img src={solidityLogo} />
+              <img src={web3jsLogo} />
               <img src={ganacheLogo} />
               <img src={truffleLogo} />
             </div>
@@ -61,6 +71,7 @@ class Skills extends React.Component {
           <div className="data-container skills-container">
             <div className="container-title">Data/Stats</div>
             <div className="container-icons">
+              <img src={matlabLogo} />
               <img src={rLogo} />
             </div>
           </div>
@@ -68,6 +79,7 @@ class Skills extends React.Component {
             <div className="container-title">Testing/Misc.</div>
             <div className="container-icons">
               <img src={gitLogo} />
+              <img src={webpackLogo} />
               <img src={mochaLogo} />
             </div>
           </div>
