@@ -15,6 +15,11 @@ class Projects extends React.Component {
             consectetur adipiscing elit...
           </h4>
         </div>
+        <div className="projects-main-container">
+          <div className="project-container">Hello</div>
+          <div className="project-container">Hello</div>
+          <div className="project-container">Hello</div>
+        </div>
       </div>
     );
   }

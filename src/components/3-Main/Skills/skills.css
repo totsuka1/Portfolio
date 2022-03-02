@@ -36,9 +36,12 @@
   display: flex;
   border: 2px solid white;
   height: 60px;
+  min-width: 300px;
+  max-width: 500px;
   margin-bottom: 10px;
   padding-right: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .container-title {

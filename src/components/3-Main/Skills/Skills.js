@@ -13,6 +13,7 @@ import sequelizeLogo from "./icons/sequelize.svg";
 
 import solidityLogo from "./icons/solidity.svg";
 import web3jsLogo from "./icons/web3js.svg";
+import ipfsLogo from "./icons/ipfs.png";
 import ganacheLogo from "./icons/ganache.svg";
 import truffleLogo from "./icons/truffle.svg";
 
@@ -22,6 +23,7 @@ import rLogo from "./icons/r.svg";
 import gitLogo from "./icons/git.svg";
 import webpackLogo from "./icons/webpack.svg";
 import mochaLogo from "./icons/mocha.svg";
+import jasmineLogo from "./icons/jasmine.svg";
 
 import "./skills.css";
 
@@ -64,8 +66,18 @@ class Skills extends React.Component {
             <div className="container-icons">
               <img src={solidityLogo} />
               <img src={web3jsLogo} />
+              <img src={ipfsLogo} />
               <img src={ganacheLogo} />
               <img src={truffleLogo} />
+            </div>
+          </div>
+          <div className="misc-container skills-container">
+            <div className="container-title">Testing/Other</div>
+            <div className="container-icons">
+              <img src={gitLogo} />
+              <img src={webpackLogo} />
+              <img src={mochaLogo} />
+              <img src={jasmineLogo} />
             </div>
           </div>
           <div className="data-container skills-container">
@@ -73,14 +85,6 @@ class Skills extends React.Component {
             <div className="container-icons">
               <img src={matlabLogo} />
               <img src={rLogo} />
-            </div>
-          </div>
-          <div className="misc-container skills-container">
-            <div className="container-title">Testing/Misc.</div>
-            <div className="container-icons">
-              <img src={gitLogo} />
-              <img src={webpackLogo} />
-              <img src={mochaLogo} />
             </div>
           </div>
         </div>
