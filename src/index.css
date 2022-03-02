@@ -1,9 +1,3 @@
-/* @media screen and (max-width: 400px) {
-  #projects {
-    width: 111%;
-  }
-} */
-
 * {
   box-sizing: border-box;
   background: rgb(102, 102, 102);
@@ -13,11 +7,14 @@
 
 body,
 html {
-  display: block;
   /* font-family: sans-serif; */
   font-weight: 400;
-  /* width: 100% !important; */
-  /* height: 100% !important; */
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .overlay {
