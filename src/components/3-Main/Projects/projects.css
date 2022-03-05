@@ -26,11 +26,11 @@
   opacity: 0.5;
 }
 
-.text-container {
+/* .text-container {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .projects-main-container {
   position: relative;
@@ -62,20 +62,31 @@
 .project-details {
   display: flex;
   flex-direction: column;
-  padding: 10px 5px;
+  padding: 15px 5px;
+}
+
+.project-details > div,
+button {
+  margin: 5px;
+  padding: 5px;
 }
 
 .project-description {
   border: 2px solid white;
-  margin: 5px;
 }
 
 .project-tools {
   border: 2px solid black;
-  margin: 5px;
 }
 
 .project-demo {
   border: 2px solid red;
-  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-demo > button {
+  color: white;
+  font-size: 28px;
+  height: 50px;
 }

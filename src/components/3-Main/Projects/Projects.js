@@ -37,9 +37,10 @@ class Projects extends React.Component {
               "1 project-container " +
               (this.state.open === "1" ? "expanded" : "")
             }
-            onClick={this.handleClick}
           >
-            <div className="1 project-title">Blocks</div>
+            <div className="1 project-title" onClick={this.handleClick}>
+              Blocks
+            </div>
             <div className="1 project-subtitle">
               A Decentralized File Storage Platform
             </div>
@@ -51,12 +52,8 @@ class Projects extends React.Component {
                 </div>
                 <div className="1 project-tools">Key technologies used:</div>
                 <div className="1 project-demo">
-                  <div className="1 project-link">
-                    Try Blocks in action: 'insert Blocks link'
-                  </div>
-                  <div className="1 project-github">
-                    Check out its source code:
-                  </div>
+                  <button className="1 project-link">Live Site</button>
+                  <button className="1 project-github">Source code</button>
                 </div>
               </div>
             ) : null}
