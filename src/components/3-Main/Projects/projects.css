@@ -58,3 +58,24 @@
   font-size: 36px;
   margin: 10px;
 }
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+}
+
+.project-description {
+  border: 2px solid white;
+  margin: 5px;
+}
+
+.project-tools {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.project-demo {
+  border: 2px solid red;
+  margin: 5px;
+}

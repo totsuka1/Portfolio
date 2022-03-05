@@ -44,9 +44,20 @@ class Projects extends React.Component {
               A Decentralized File Storage Platform
             </div>
             {this.state.open === "1" ? (
-              <div>
-                //Project card text and info placeholder. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit...
+              <div className="1 project-details">
+                <div className="1 project-description">
+                  //Project card text and info placeholder. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit...
+                </div>
+                <div className="1 project-tools">Key technologies used:</div>
+                <div className="1 project-demo">
+                  <div className="1 project-link">
+                    Try Blocks in action: 'insert Blocks link'
+                  </div>
+                  <div className="1 project-github">
+                    Check out its source code:
+                  </div>
+                </div>
               </div>
             ) : null}
           </div>
@@ -62,7 +73,7 @@ class Projects extends React.Component {
               A Mindfullness Chrome Extension
             </div>
             {this.state.open === "2" ? (
-              <div>
+              <div className="2 project-details">
                 //Project card text and info placeholder. Lorem ipsum dolor sit
                 amet, consectetur adipiscing elit...
               </div>
@@ -80,7 +91,7 @@ class Projects extends React.Component {
               An E-Commerce Marketplace for Educational Videos
             </div>
             {this.state.open === "3" ? (
-              <div>
+              <div className="3 project-details">
                 //Project card text and info placeholder. Lorem ipsum dolor sit
                 amet, consectetur adipiscing elit...
               </div>
@@ -98,7 +109,7 @@ class Projects extends React.Component {
               My Portfolio Website, Built From the Ground Up
             </div>
             {this.state.open === "4" ? (
-              <div>
+              <div className="4 project-details">
                 //Project card text and info placeholder. Lorem ipsum dolor sit
                 amet, consectetur adipiscing elit...
               </div>
