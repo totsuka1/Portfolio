@@ -38,11 +38,11 @@ class Projects extends React.Component {
               (this.state.open === "1" ? "expanded" : "")
             }
           >
-            <div className="1 project-title" onClick={this.handleClick}>
-              Blocks
-            </div>
-            <div className="1 project-subtitle">
-              A Decentralized File Storage Platform
+            <div className="1 project-banner" onClick={this.handleClick}>
+              <div className="1 project-title">Blocks</div>
+              <div className="1 project-subtitle">
+                A Decentralized File Storage Platform
+              </div>
             </div>
             {this.state.open === "1" ? (
               <div className="1 project-details">

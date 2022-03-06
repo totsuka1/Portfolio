@@ -53,6 +53,10 @@
   height: 500px;
 }
 
+.project-banner {
+  height: 100px;
+}
+
 .project-title {
   color: white;
   font-size: 36px;
@@ -62,7 +66,7 @@
 .project-details {
   display: flex;
   flex-direction: column;
-  padding: 15px 5px;
+  padding: 0 5px;
 }
 
 .project-details > div,
@@ -89,4 +93,12 @@ button {
   color: white;
   font-size: 28px;
   height: 50px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.project-demo > button:hover {
+  color: rgb(102, 102, 102);
+  background: white;
+  transition: 0.5s;
 }
