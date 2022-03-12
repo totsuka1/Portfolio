@@ -1,29 +1,29 @@
 import React from "react";
 
-import javascriptLogo from "./icons/javascript.svg";
-import reactLogo from "./icons/react.svg";
-import reduxLogo from "./icons/redux.svg";
-import htmlLogo from "./icons/html5.svg";
-import cssLogo from "./icons/css3.svg";
+import javascriptLogo from "../../../icons/javascript.svg";
+import reactLogo from "../../../icons/react.svg";
+import reduxLogo from "../../../icons/redux.svg";
+import htmlLogo from "../../../icons/html5.svg";
+import cssLogo from "../../../icons/css3.svg";
 
-import nodejsLogo from "./icons/nodejs.svg";
-import expressjsLogo from "./icons/expressjs.svg";
-import postgresqlLogo from "./icons/postgresql.svg";
-import sequelizeLogo from "./icons/sequelize.svg";
+import nodejsLogo from "../../../icons/nodejs.svg";
+import expressjsLogo from "../../../icons/expressjs.svg";
+import postgresqlLogo from "../../../icons/postgresql.svg";
+import sequelizeLogo from "../../../icons/sequelize.svg";
 
-import solidityLogo from "./icons/solidity.svg";
-import web3jsLogo from "./icons/web3js.svg";
-import ipfsLogo from "./icons/ipfs.png";
-import ganacheLogo from "./icons/ganache.svg";
-import truffleLogo from "./icons/truffle.svg";
+import solidityLogo from "../../../icons/solidity.svg";
+import web3jsLogo from "../../../icons/web3js.svg";
+import ipfsLogo from "../../../icons/ipfs.png";
+import ganacheLogo from "../../../icons/ganache.svg";
+import truffleLogo from "../../../icons/truffle.svg";
 
-import matlabLogo from "./icons/matlab.svg";
-import rLogo from "./icons/r.svg";
+import matlabLogo from "../../../icons/matlab.svg";
+import rLogo from "../../../icons/r.svg";
 
-import gitLogo from "./icons/git.svg";
-import webpackLogo from "./icons/webpack.svg";
-import mochaLogo from "./icons/mocha.svg";
-import jasmineLogo from "./icons/jasmine.svg";
+import gitLogo from "../../../icons/git.svg";
+import webpackLogo from "../../../icons/webpack.svg";
+import mochaLogo from "../../../icons/mocha.svg";
+import jasmineLogo from "../../../icons/jasmine.svg";
 
 import "./skills.css";
 

@@ -1,5 +1,11 @@
 import React from "react";
 
+import reactLogo from "../../../icons/react.svg";
+import solidityLogo from "../../../icons/solidity.svg";
+import web3jsLogo from "../../../icons/web3js.svg";
+import ipfsLogo from "../../../icons/ipfs.png";
+import ganacheLogo from "../../../icons/ganache.svg";
+
 import "./projects.css";
 
 class Projects extends React.Component {
@@ -50,7 +56,16 @@ class Projects extends React.Component {
                   //Project card text and info placeholder. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit...
                 </div>
-                <div className="1 project-tools">Key technologies used:</div>
+                <div className="1 project-tools">
+                  Key technologies used:
+                  <div className="container-icons">
+                    <img src={reactLogo} />
+                    <img src={solidityLogo} />
+                    <img src={web3jsLogo} />
+                    <img src={ipfsLogo} />
+                    <img src={ganacheLogo} />
+                  </div>
+                </div>
                 <div className="1 project-demo">
                   <button className="1 project-link">Live Site</button>
                   <button className="1 project-github">Source code</button>
